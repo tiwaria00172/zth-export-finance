@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Export Finance | ZTH</title>
+<meta name="description" content="Export Finance at ZTH: working-capital support for businesses fulfilling international orders, part of the ZTH Capital Network.">
+<meta property="og:title" content="Export Finance | ZTH">
+<meta property="og:description" content="Bridge the gap between shipment and payment. Part of the ZTH Capital Network.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2716%27 fill=%27%230070bc%27/%3E%3Ctext x=%2716%27 y=%2722%27 font-size=%2718%27 font-weight=%27700%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27Arial%27%3EZ%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#f9fbff">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f4f6;--surface:#f9fbff;--ink:#0b142b;--ink2:#0d0d0d;--navy:#1b347a;--label:#1e3a8d;--blue:#1b53dc;--muted:#4b5563;--line:#d9dde3;--c1:#f5f6f8;--c2:#3c4347;--c3:#13161a;color-scheme:light;--gap:#dce6fb;--gapink:#1b347a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:90px;height:100%}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Inter,system-ui,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgba(249,251,255,.82);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:28px;height:68px}
+.logo{width:36px;height:36px;border-radius:50%;background:#0070bc;color:#fff;font-weight:800;display:grid;place-items:center}
+.links{display:flex;gap:26px;margin:0 auto;font-size:15px;font-weight:500}
+.links a.on{color:var(--blue);border-bottom:2px solid var(--blue);padding-bottom:2px}
+.btn{display:inline-block;background:var(--blue);color:#fff;font-weight:600;padding:13px 26px;border-radius:6px;border:0;font-size:15px;cursor:pointer;box-shadow:0 6px 16px rgba(27,83,220,.28)}
+.btn.sm{padding:9px 16px;box-shadow:none;font-size:14px}
+.pill{border:1px solid var(--blue);color:var(--blue);border-radius:999px;padding:8px 16px;font-size:14px;font-weight:600}
+.btn.ghost{background:none;color:var(--ink);border:1px solid var(--line);border-radius:999px;box-shadow:none}
+.crumb{font-size:13px;color:var(--muted);padding:14px 0 0}
+.lab{font-size:13px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--label);text-align:center;margin:0 0 14px}
+h1{font-weight:800;letter-spacing:-.045em;line-height:1.02;font-size:clamp(40px,7vw,84px);margin:0 auto;max-width:15ch;text-align:center}
+h1 em{font-style:normal;color:var(--navy)}
+h2{font:700 clamp(28px,4vw,46px)/1.12 "Playfair Display",serif;text-align:center;margin:0 0 12px;color:var(--ink2)}
+.sub{text-align:center;color:var(--muted);max-width:60ch;margin:0 auto}
+section{padding:84px 0}
+.hero{text-align:center;padding:72px 0 56px}
+.hero .sub{font-size:19px;margin:22px auto 32px}
+.acts{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:28px;margin-top:40px}
+.tag{display:inline-block;font-size:12px;font-weight:600;background:var(--gap);color:var(--gapink);padding:3px 10px;border-radius:999px}
+.ph{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:22px;font-weight:600}
+.scroll{overflow-x:auto}
+.tl{min-width:640px;position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.nd{text-align:center;position:relative;padding-top:34px}
+.nd:before{content:"";position:absolute;top:8px;left:50%;width:16px;height:16px;border-radius:50%;background:var(--blue);transform:translateX(-50%);z-index:2}
+.nd:after{content:"";position:absolute;top:15px;left:50%;width:100%;height:2px;background:var(--line)}
+.nd:last-child:after{display:none}
+.nd b{display:block}.nd small{color:var(--muted)}
+.gapbar{grid-column:2/5;margin-top:22px;margin-left:12.5%;background:var(--gap);color:var(--gapink);border:1px dashed var(--gapink);border-radius:6px;padding:12px 16px;font-weight:600;font-size:14px;display:flex;justify-content:space-between;gap:10px}
+.gapnote{margin:18px 0 0;color:var(--muted);font-size:14px}
+.cards{display:grid;gap:22px;margin-top:44px}
+.c3{grid-template-columns:repeat(3,1fr)}.c4{grid-template-columns:repeat(4,1fr)}
+.card{border-radius:8px;padding:26px 22px;min-height:230px;display:flex;flex-direction:column;border:1px solid var(--line)}
+.card h3{font:700 21px "Playfair Display",serif;text-align:center;margin:0 0 14px;padding-bottom:12px;border-bottom:1px solid rgba(128,128,128,.35)}
+.card p{font-size:14.5px;text-align:center;margin:0 0 18px}
+.card .go{margin:auto auto 0;width:40px;height:40px;border:1px solid currentColor;border-radius:50%;display:grid;place-items:center}
+.k1{background:var(--c1);color:var(--ink2)}.k2{background:var(--c2);color:#e9edf0}.k3{background:var(--c3);color:#e9edf0}
+.k4{background:var(--surface);color:var(--ink2);border:2px solid var(--blue);position:relative}
+.new{position:absolute;top:-11px;right:14px;background:var(--blue);color:#fff;font-size:11px;font-weight:700;letter-spacing:.12em;padding:3px 10px;border-radius:4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.two h2{text-align:left}
+.chk{list-style:none;margin:0;padding:0}
+.chk li{padding:16px 0;border-bottom:1px solid var(--line);display:flex;gap:14px}
+.chk li:before{content:"✓";color:var(--blue);font-weight:800}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:44px}
+.st{border-top:2px solid var(--ink);padding-top:16px}
+.st i{font:normal 700 14px Inter,system-ui,sans-serif;color:var(--blue)}
+.st h3{margin:6px 0;font-size:19px}.st p{margin:0;color:var(--muted);font-size:14.5px}
+.fit{margin-top:34px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 16px;font-size:14px;font-weight:500}
+.cta{background:var(--c3);color:#fff;border-radius:14px;padding:56px 32px}
+.cta h2{color:#fff}.cta .lab{color:#9db3ff}.cta .sub{color:#b6bfce}
+form{max-width:640px;margin:34px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+form .f{grid-column:1/-1}
+input,textarea,select{width:100%;padding:12px 14px;border-radius:6px;border:1px solid #39414d;background:#1b2028;color:#fff;font:inherit;font-size:15px}
+input::placeholder,textarea::placeholder{color:#8a94a6}
+:focus-visible{outline:2px solid #7fa2ff;outline-offset:2px}
+.msg{grid-column:1/-1;text-align:center;color:#9be0b0;font-size:14px;min-height:20px;margin:0}
+footer{padding:36px 0;text-align:center;color:var(--muted);font-size:13px}
+@media(max-width:900px){.links,.pill{display:none}nav .btn{margin-left:auto}.c3,.c4,.steps,.two{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr}}
+@media(max-width:560px){.c3,.c4,.steps{grid-template-columns:1fr}form{grid-template-columns:1fr}section{padding:60px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:40px}
+.bx{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}
+.bx.af{border:2px solid var(--blue)}
+.bx .bh{margin:0 0 14px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between}
+.mn{display:flex;gap:14px;font-size:12px;margin-bottom:14px;flex-wrap:wrap;color:var(--muted)}
+.mn b{color:var(--blue);border-bottom:2px solid var(--blue)}
+.dd{font-size:12.5px;margin:-4px 0 14px;padding:8px 12px;border:1px solid var(--line);border-radius:6px;display:grid;gap:3px}
+.mc{display:grid;grid-template-columns:repeat(var(--n),1fr);gap:8px}
+.mc span{border-radius:6px;padding:14px 6px;font:700 12px "Playfair Display",serif;text-align:center}
+.mc .n{outline:2px solid var(--blue);outline-offset:2px;background:var(--surface);color:var(--ink2);border:1px solid var(--line)}
+.ep{list-style:none;padding:0;margin:26px auto 0;max-width:760px;display:grid;gap:10px}
+.ep li{display:flex;gap:12px;font-size:15px;padding:12px 16px;border:1px solid var(--line);background:var(--surface);border-radius:8px}
+.ep b{color:var(--blue)}
+.gt{display:grid;grid-template-columns:170px 1fr;min-width:640px;font-size:14px}
+.lbs div,.rw{height:44px;display:flex;align-items:center}
+.lbs div{font-weight:500}
+.ru{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;border-bottom:1px solid var(--line);margin-bottom:4px;grid-column:2}
+.tk{position:relative}
+.rw{position:relative;border-bottom:1px solid var(--line)}
+.b{position:absolute;top:10px;height:24px;border-radius:4px;background:var(--blue)}
+.b.w{background:transparent;border:2px dashed var(--gapink)}
+.m{position:absolute;top:13px;width:18px;height:18px;transform:rotate(45deg);background:var(--ink)}
+.gp{position:absolute;top:0;bottom:0;left:5%;right:0;background:var(--gap);opacity:.55;border-left:2px dashed var(--gapink);border-right:2px dashed var(--gapink);pointer-events:none}
+.gl{position:absolute;top:4px;left:calc(5% + 10px);font-size:12px;font-weight:700;color:var(--gapink);z-index:2}
+.vm{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.vm div{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:20px}
+.vm div.on{border:2px solid var(--blue)}
+.vm h3{font:700 18px "Playfair Display",serif;margin:0 0 8px}.vm p{margin:0;font-size:14px;color:var(--muted)}
+.vm small{display:block;margin-top:10px;font-weight:600;color:var(--blue);font-size:12px}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:40px}
+.why div{border-top:2px solid var(--ink);padding-top:14px}
+.why h3{margin:0 0 6px;font-size:18px}.why p{margin:0;color:var(--muted);font-size:15px}
+.note{text-align:center;color:var(--muted);font-size:13px;margin-top:26px}
+@media(max-width:900px){.ba,.vm{grid-template-columns:1fr 1fr}.why{grid-template-columns:1fr}}
+@media(max-width:560px){.ba,.vm{grid-template-columns:1fr}}
+
+.hb{background:linear-gradient(180deg,#d6d8dc 0%,var(--bg) 100%)}
+.seg{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px}
+.seg button{font:600 14px Inter,system-ui,sans-serif;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:8px 16px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--blue);color:#fff;border-color:var(--blue)}
+.dim{opacity:.28;transition:opacity .2s}
+.cap{margin:16px 0 0;font-weight:600;color:var(--navy);min-height:24px}
+details{border:1px solid #39414d;border-radius:6px;padding:12px 14px}
+summary{cursor:pointer;color:#9db3ff;font-size:14px;font-weight:600}
+.dg{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.dg .f{grid-column:1/-1}
+.nx{grid-column:1/-1;text-align:center;font-size:13px;color:#b6bfce;margin:0}
+.chips{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:22px}
+.chips span{border:1px solid #39414d;border-radius:999px;padding:6px 14px;font-size:13px;color:#d6dbe6}
+.hint{text-align:center;font-size:13px;color:#9db3ff;margin:20px 0 0}
+.fl{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin-bottom:12px;font-weight:500}
+.stk{display:none}
+@media(max-width:560px){.dg{grid-template-columns:1fr}.stk{display:block;position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:9;text-align:center;background:var(--blue);color:#fff;font-weight:600;padding:14px;border-radius:8px;box-shadow:0 8px 20px rgba(0,0,0,.25)}footer{padding-bottom:90px}}
+
+h2 em{font-style:italic;color:var(--navy)}
+.cta h2 em{color:#6f93ff}
+.dd{grid-template-columns:1fr 1fr;gap:10px 16px;padding:12px 14px}
+.dd span b{display:block;font-size:13px}.dd span small{display:block;color:var(--muted);font-size:11.5px;line-height:1.35}
+.dd .nw{border-left:3px solid var(--blue);padding-left:8px}.dd .nw b{color:var(--blue)}
+.kp{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:18px}
+.kp div{border:1px solid var(--line);border-radius:8px;padding:12px 14px;background:var(--bg)}
+.kp small{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.kp b{font-size:18px}
+footer.ft{background:#000;color:#fff;text-align:left;padding:64px 0 28px;font-size:15px}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:36px}
+.fh{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#aeb6c4;font-weight:600;border-bottom:1px solid #2a2f38;padding-bottom:14px;margin:0 0 18px}
+.fb{font:700 clamp(40px,5vw,64px)/1.05 "Playfair Display",serif;margin:0 0 26px}.fb em{color:#6f93ff}
+.fg a{display:block;color:#c9d0dc;margin-bottom:12px}
+.pl{display:inline-block!important;background:var(--blue);color:#fff!important;font-weight:600;border-radius:999px;padding:14px 26px;box-shadow:0 8px 24px rgba(27,83,220,.4)}
+.fbt{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;border-top:1px solid #2a2f38;margin-top:48px;padding-top:24px;color:#aeb6c4;font-size:13px}
+.fbt a{border:1px solid #2a2f38;border-radius:999px;padding:10px 18px;color:#fff}
+@media(max-width:900px){.fg{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.fg{grid-template-columns:1fr}footer.ft{padding-bottom:100px}}
+
+.panel{position:relative;padding-top:0;overflow:visible}
+.wc{display:flex;align-items:center;gap:14px;padding:16px 0 14px;border-bottom:1px solid var(--line);margin-bottom:20px;color:var(--muted);font-size:14px}
+.wd{display:flex;gap:7px}.wd i{width:12px;height:12px;border-radius:50%}
+.wd i:nth-child(1){background:#ff5f57}.wd i:nth-child(2){background:#febc2e}.wd i:nth-child(3){background:#28c840}
+.fp{position:absolute;top:-22px;right:18px;background:#0b0f14;color:#fff;border-radius:16px;padding:10px 16px;font-size:14px;font-weight:600;line-height:1.25;box-shadow:0 10px 26px rgba(0,0,0,.25);display:flex;gap:10px;align-items:center}
+.fp:before{content:"";width:9px;height:9px;border-radius:50%;background:#28c840}
+.fp small{display:block;font-weight:400;color:#aeb6c4;font-size:12px}
+.rw:before{content:"";position:absolute;left:0;right:0;top:17px;height:10px;border-radius:999px;background:#e3e6ec}
+.b{height:10px;top:17px;border-radius:999px;background:#0b142b}
+.b.w{background:repeating-linear-gradient(90deg,var(--navy) 0 8px,transparent 8px 14px);border:0}
+.kp small,.lbs div{font-family:Inter,system-ui,sans-serif}
+@media(max-width:560px){.fp{right:10px;top:-26px}}
+
+.card{position:relative;overflow:hidden;border-radius:6px;box-shadow:0 18px 40px rgba(11,20,43,.16)}
+.card>*{position:relative;z-index:1}
+.card:before{content:"";position:absolute;left:-112px;top:26%;width:212px;height:212px;border:1px solid currentColor;border-radius:50%;opacity:.09;z-index:0}
+.card:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,currentColor 0 1px,transparent 1px 34px);opacity:.035;z-index:0;pointer-events:none}
+.card p{color:inherit;opacity:.88}
+.card .go{width:44px;height:44px;font-size:18px}
+.k1{background:linear-gradient(115deg,#f6f7f9 0%,#e9eaf3 48%,#f6f7f9 100%);border-color:#d6d9e0}
+.k2{background:linear-gradient(135deg,#31373b 0%,#3c4347 52%,#2b3033 100%);border-color:#2b3033}
+.k2 h3{color:#fff;border-bottom-color:#604841}
+.k2 .go{border-color:#6a4640;color:#a57268}
+.k3{background:linear-gradient(100deg,#1e2226 0%,#13161a 42%,#0a0c0f 100%);border-color:#0a0c0f}
+.k3 h3{color:#fff;border-bottom-color:#35383b}
+.k3 .go{border-color:#4d4e51;color:#fff}
+.k2 p,.k3 p{color:#c9cdd1;opacity:1}
+
+.card,.kp div,.btn,.pl{transition:opacity .3s ease,filter .3s ease,transform .3s ease,box-shadow .3s ease,background .2s ease}
+@media (hover:hover){
+.cards:hover .card,.kp:hover div{opacity:.5;filter:blur(1.2px) saturate(.6)}
+.cards .card:hover,.kp div:hover{opacity:1;filter:none;transform:translateY(-4px) scale(1.03);z-index:3}
+.cards .card:hover{box-shadow:0 26px 50px rgba(11,20,43,.32)}
+.kp div:hover{background:var(--surface);box-shadow:0 14px 28px rgba(11,20,43,.14)}
+}
+@media(prefers-reduced-motion:reduce){.card,.kp div,.btn,.pl{transition:none}.cards .card:hover,.kp div:hover{transform:none}}
+
+.btn:not(.ghost),.pl{position:relative;overflow:hidden;isolation:isolate}
+.btn:not(.ghost)::before,.pl::before{content:"";position:absolute;z-index:-1;top:-60%;left:-25%;width:150%;height:220%;background:#0b0f14;border-radius:50%;transform:translateX(108%);transition:transform .6s cubic-bezier(.65,0,.35,1);pointer-events:none}
+.btn:not(.ghost):hover::before,.btn:not(.ghost):focus-visible::before,.pl:hover::before,.pl:focus-visible::before{transform:translateX(0)}
+@media(prefers-reduced-motion:reduce){.btn:not(.ghost)::before,.pl::before{transition:none}}
+
+.btn{border-radius:8px}
+.btn:not(.ghost)::before,.pl::before{top:50%;left:auto;right:calc(12px - 130%);width:260%;height:auto;aspect-ratio:1/1;border-radius:50%;transform:translateY(-50%) scale(0);transition:transform .5s ease-in-out}
+.btn:not(.ghost):hover::before,.btn:not(.ghost):focus-visible::before,.pl:hover::before,.pl:focus-visible::before{transform:translateY(-50%) scale(1)}
+
+.mb{display:none;background:none;border:1px solid var(--line);border-radius:6px;width:40px;height:40px;font-size:20px;line-height:1;color:var(--ink);cursor:pointer}
+@media(max-width:900px){.mb{display:block}.links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;margin:0;background:var(--surface);border-bottom:1px solid var(--line);padding:6px 24px 14px}nav.open .links{display:flex}.links a{padding:13px 0;border-bottom:1px solid var(--line)}.links a.on{border-bottom:1px solid var(--line);color:var(--blue)}}
+
+.nv{display:flex;align-items:center;height:68px}
+.nv>a{padding:4px 0;border-bottom:1px solid transparent;transition:border-color .2s,color .2s}
+.nv:hover>a,.nv:focus-within>a{border-bottom-color:var(--blue)}
+.mm{display:none;position:absolute;top:100%;left:50%;transform:translateX(-50%);width:min(1180px,calc(100vw - 48px));background:var(--surface);border:1px solid var(--line);border-top:0;box-shadow:0 24px 50px rgba(11,20,43,.14);padding:26px 54px 14px;grid-template-columns:1fr 1fr;gap:0 48px;z-index:20;text-align:left;font-weight:400}
+.nv:hover .mm,.nv:focus-within .mm{display:grid}
+.mm>div+div{border-left:1px solid var(--line);padding-left:48px}
+.mm .h5{margin:0 0 14px;padding-bottom:14px;border-bottom:1px solid var(--line);font-size:13px;font-weight:600;color:var(--ink)}
+.mm a{display:block;margin:0 0 14px;padding:0;border:0}
+.mm a b{display:block;font-size:16px;font-weight:600;color:var(--ink);transition:color .2s}
+.mm a small{display:block;color:var(--muted);font-size:14px}
+.mm a:hover b{color:var(--blue)}
+.mm a.vl{color:var(--blue);font-weight:500;font-size:15px}
+.mm .nw{border-left:3px solid var(--blue);padding-left:10px;margin-left:-13px}
+.mm .nw b:after{content:"NEW";margin-left:8px;font-size:10px;letter-spacing:.12em;background:var(--blue);color:#fff;padding:2px 7px;border-radius:4px;vertical-align:middle}
+@media(max-width:900px){.nv{display:block;height:auto}.nv>a{display:block;border-bottom:1px solid var(--line)!important}.mm{display:none!important}}
+.tg{margin-left:6px;font-size:9px;font-weight:700;letter-spacing:.1em;background:var(--blue);color:#fff;padding:2px 6px;border-radius:4px;vertical-align:middle}
+@media(max-width:1180px){.links{gap:18px;font-size:14px}}
+.mm.one{grid-template-columns:1fr}
+
+.links{align-items:center}
+.links>a{padding:4px 0;border-bottom:1px solid transparent}
+.links>a.on{padding:4px 0 3px;border-bottom:2px solid var(--blue)}
+@media(max-width:900px){.links{align-items:stretch}.links>a,.links>a.on{padding:13px 0;border-bottom:1px solid var(--line)}.links>a.on{color:var(--blue)}}
+
+.links a,.links .nv>a{white-space:nowrap}
+.mm{display:grid;visibility:hidden;opacity:0;pointer-events:none;transition:opacity .15s ease .3s,visibility 0s linear .45s}
+.nv:hover .mm,.nv:focus-within .mm{visibility:visible;opacity:1;pointer-events:auto;transition:opacity .15s ease .12s,visibility 0s linear .12s}
+@media(max-width:900px){.mm{display:none!important}}
+@media(max-width:560px){.fp{position:static;margin:14px 0 0;display:inline-flex}}
+@media(max-width:1280px){.links{gap:14px;font-size:13.5px}.tg{margin-left:4px}}
+
+form label{display:block;font-size:13px;font-weight:500;color:#c9d0dc;text-align:left}
+form label input,form label textarea,form label select{margin-top:6px}
+.er{display:block;color:#ffb4a8;font-size:12.5px;margin-top:4px;font-weight:400}.er:empty{display:none}
+input[aria-invalid="true"],textarea[aria-invalid="true"]{border-color:#ff8a78}
+
+.sk{position:absolute;left:-999px;top:8px;z-index:99;background:#0b0f14;color:#fff;padding:10px 14px;border-radius:6px}.sk:focus{left:8px}
+.tr{margin:30px auto 0;max-width:640px;font-size:14px;color:var(--muted)}.tr b{color:var(--ink);font-weight:600}
+.js .gt .b{transform:scaleX(0);transform-origin:left;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.js .gt.in .b{transform:scaleX(1)}
+.js .gt .rw:nth-of-type(3) .b{transition-delay:.1s}.js .gt .rw:nth-of-type(4) .b{transition-delay:.25s}.js .gt .rw:nth-of-type(5) .b{transition-delay:.4s}.js .gt .rw:nth-of-type(6) .b{transition-delay:.55s}
+@media(prefers-reduced-motion:reduce){.js .gt .b{transform:none;transition:none}}
+nav .btn,nav .pill{white-space:nowrap}
+nav .wrap{max-width:1360px;gap:20px}
+.links{margin:0 auto}
+@media(max-width:1180px){.links{gap:14px;font-size:13px}nav .btn.sm{padding:9px 12px}.pill{padding:8px 12px}}
+
+.dd2{border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:20px 24px}
+.dd2 summary{color:var(--ink);font:700 19px/1.3 "Playfair Display",serif;list-style:none;display:flex;justify-content:space-between;gap:12px;align-items:center}
+.dd2 summary::-webkit-details-marker{display:none}
+.dd2 summary:after{content:"+";font:600 24px Inter,system-ui,sans-serif;color:var(--blue)}
+.dd2[open] summary:after{content:"\2212"}
+.dd2[open] summary{margin-bottom:6px}
+
+.legend{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin:0 0 14px}
+.sw{width:18px;height:12px;border-radius:3px;background:var(--gap);border:1px dashed var(--gapink);flex:none}
+.gt2{font-size:14px}
+.ax,.r2{display:grid;grid-template-columns:170px 1fr;align-items:center}
+.axl{display:flex;justify-content:space-between;color:var(--muted);font-size:12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.r2{border-bottom:1px solid var(--line);min-height:44px}
+.rl{font-weight:500;padding-right:10px}
+.trk{position:relative;height:44px;background:linear-gradient(90deg,transparent 5%,var(--gap) 5%)}
+.trk:before{content:"";position:absolute;left:0;right:0;top:17px;height:10px;border-radius:999px;background:#e3e6ec;opacity:.9}
+.js .gt2 .b{transform:scaleX(0);transform-origin:left;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.js .gt2.in .b{transform:scaleX(1)}
+.js .gt2 .r2:nth-of-type(3) .b{transition-delay:.1s}.js .gt2 .r2:nth-of-type(4) .b{transition-delay:.25s}.js .gt2 .r2:nth-of-type(5) .b{transition-delay:.4s}.js .gt2 .r2:nth-of-type(6) .b{transition-delay:.55s}
+@media(prefers-reduced-motion:reduce){.js .gt2 .b{transform:none;transition:none}}
+@media(max-width:560px){.ax,.r2{grid-template-columns:1fr}.ax i{display:none}.rl{padding-top:8px;font-size:13px}.r2{min-height:0}.trk{height:34px}.trk:before{top:12px}.r2 .b{top:12px}.m{top:8px}}
+.links a:focus-visible,.btn:focus-visible,.pill:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:4px}
+@media(max-width:900px){
+.links{max-height:calc(100vh - 90px);max-height:calc(100dvh - 90px);overflow:auto}
+.nv.open .mm{display:block!important;position:static;transform:none;width:auto;box-shadow:none;border:0;padding:2px 0 8px 12px;visibility:visible;opacity:1;pointer-events:auto;background:transparent}
+.mm>div+div{border-left:0;padding-left:0}.mm .h5{margin:10px 0 8px;padding-bottom:8px}
+.nv>a:after{content:" +";color:var(--blue);font-weight:700}.nv.open>a:after{content:" \2212"}
+.mm a{padding:4px 0!important;border:0!important}.mm a b{font-size:15px}
+}
+.mm a,.mm a small,.mm a b{white-space:normal}
+nav.open~.stk{display:none!important}
+@media(max-width:900px){.mm .nw{margin-left:0;padding-left:10px}}
+@media(max-width:560px){.kp{grid-template-columns:repeat(3,1fr);gap:8px}.kp div{padding:8px 10px}.kp b{font-size:13px;line-height:1.25;display:block}.kp small{font-size:9px;letter-spacing:.08em}}
+.nv.act>a{color:var(--blue);border-bottom:2px solid var(--blue)}
+</style>
+</head>
+<body>
+<a class="sk" href="#top">Skip to content</a>
+<nav><div class="wrap">
+<a aria-label="ZTH home" class="logo" href="#top">Z</a>
+<div class="links"><div class="nv"><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank">Pre-Fundraising</a><div class="mm"><div><p class="h5">Fundraising Preparation</p><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Pitch Deck</b><small>Investor narrative, advisory + done-for-you build</small></a><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Financial Modeling</b><small>Projections and fundraising-ready models</small></a><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Business Valuation</b><small>Market-aligned valuation guidance</small></a><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Capital Readiness</b><small>Positioning, due-diligence and data-room prep</small></a><a class="vl" href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank">View all preparation services →</a></div><div><p class="h5">Compliance &amp; Setup</p><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Business Formation</b><small>Entity setup, done for you</small></a><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>GST &amp; ROC Compliance</b><small>Registration and ongoing filing</small></a><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Legal &amp; Founder Agreements</b><small>Documentation, ESOPs, agreements</small></a><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Accounting &amp; CA Support</b><small>Books, filings, advisory</small></a><a href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank"><b>Startup India / DPIIT</b><small>Recognition and registration</small></a><a class="vl" href="https://zth.co.in/#pre-fundraising-light" rel="noopener noreferrer" target="_blank">View all compliance services →</a></div></div></div><div class="nv act"><a href="https://zth.co.in/#capital-network" rel="noopener noreferrer" target="_blank">Capital Network</a><div class="mm"><div><p class="h5">Capital Network</p><a href="https://zth.co.in/#capital-network" rel="noopener noreferrer" target="_blank"><b>Capital Access</b><small>Access prep, support and connections</small></a><a href="https://zth.co.in/#capital-network" rel="noopener noreferrer" target="_blank"><b>Join as Investor</b><small>Discover curated ventures</small></a><a href="https://zth.co.in/#capital-network" rel="noopener noreferrer" target="_blank"><b>Strategic Partnerships</b><small>Collaborate across the ecosystem</small></a><a class="nw" href="#top"><b>Export Finance</b><small>Working-capital support between shipment and payment</small></a></div><div><p class="h5">Active Fundraising Support</p><a href="https://zth.co.in/" rel="noopener noreferrer" target="_blank"><b>Investor Meeting Prep</b><small>Get ready for the room</small></a><a href="https://zth.co.in/" rel="noopener noreferrer" target="_blank"><b>Pitch Day Support</b><small>Live support at demo days</small></a><a href="https://zth.co.in/" rel="noopener noreferrer" target="_blank"><b>Deal Structuring</b><small>Terms, documentation, negotiation</small></a><a href="https://zth.co.in/" rel="noopener noreferrer" target="_blank"><b>Due Diligence Coordination</b><small>Run the data room</small></a></div></div></div><div class="nv"><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank">Partnership &amp; Advisory</a><div class="mm"><div><p class="h5">Long-Term Advisory</p><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Financial Advisory</b><small>Ongoing financial guidance</small></a><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>ZTH at Cap Table</b><small>Aligned long-term partnership</small></a><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Growth &amp; Governance</b><small>Scaling, reporting, structuring</small></a><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Follow-On Fundraising</b><small>Preparation for future rounds</small></a></div><div><p class="h5">Execution Network</p><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Product &amp; Tech</b><small>End-to-end product build support</small></a><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Branding &amp; GTM</b><small>Go-to-market and brand positioning</small></a><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Finance &amp; Accounting</b><small>Books, advisory, compliance</small></a><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Legal &amp; Compliance</b><small>Agreements and regulatory support</small></a><a href="https://zth.co.in/#partnership-advisory" rel="noopener noreferrer" target="_blank"><b>Hiring &amp; Talent</b><small>Team building and recruitment</small></a></div></div></div><div class="nv"><a href="https://zth.co.in/#investor-mock-room" rel="noopener noreferrer" target="_blank">SaaS</a><div class="mm one"><div><p class="h5">Products</p><a href="https://zth.co.in/#investor-mock-room" rel="noopener noreferrer" target="_blank"><b>Idea Validation</b><small>Test and validate your startup idea</small></a><a href="https://zth.co.in/#investor-mock-room" rel="noopener noreferrer" target="_blank"><b>Startup Planning</b><small>Structured planning for early-stage growth</small></a><a href="https://zth.co.in/#investor-mock-room" rel="noopener noreferrer" target="_blank"><b>Investor Mock Room</b><small>Simulate real investor conversations</small></a></div></div></div><div class="nv"><a href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank">ZTH Insider</a><div class="mm"><div><p class="h5">Content</p><a href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank"><b>Weekly Digest</b><small>Curated fundraising intelligence, every week</small></a><a href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank"><b>Founder Stories</b><small>Real journeys, real lessons from funded founders</small></a><a href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank"><b>Market Signals</b><small>Investor trends and capital flow insights</small></a><a class="vl" href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank">View all content →</a></div><div><p class="h5">Community</p><a href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank"><b>Founder Network</b><small>Connect with vetted, funded founders</small></a><a href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank"><b>Events &amp; Webinars</b><small>Live sessions with investors and operators</small></a><a href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank"><b>Resource Library</b><small>Templates, playbooks and deal guides</small></a><a class="vl" href="https://zth.co.in/coming-soon" rel="noopener noreferrer" target="_blank">Explore the community →</a></div></div></div></div>
+<a class="btn sm" href="https://zth.co.in/" rel="noopener noreferrer" target="_blank">Explore ZTH</a><a class="pill" href="https://zth.co.in/internal/login" rel="noopener noreferrer" target="_blank">↗ ZTH OS</a><button aria-expanded="false" aria-label="Menu" class="mb" type="button">☰</button>
+</div></nav>
+
+<main id="top">
+<div class="hb"><header class="wrap hero">
+<div class="crumb" style="text-align:center;padding:0 0 26px">Capital Network / Export Finance</div>
+<p class="lab" style="color:var(--blue)">Export &bull; Finance &bull; Growth</p>
+<h1>Bridge The Gap Between Shipment And <em>Payment.</em></h1>
+<p class="sub">Financing support for businesses fulfilling international orders.</p>
+<div class="acts"><a class="btn" href="#talk">Discuss Your Export Requirement →</a><a class="btn ghost" href="#gap">See How The Gap Works ↓</a></div>
+<p class="tr">Part of the ZTH Capital Network: <b>Equity</b> Investors, <b>Debt</b> Providers, and <b>Strategic</b> Partners.</p>
+</header></div>
+
+
+
+<section id="gap"><div class="wrap">
+<p class="lab">+ The Export Financing Gap +</p>
+<h2>The Order Is Confirmed. The Payment Isn't <em>Here Yet.</em></h2>
+<p class="sub">Between fulfilling an international order and receiving payment, working capital stays tied up.</p>
+<div class="panel">
+<span class="fp"><span>Illustrative example<small>Not ZTH data</small></span></span>
+<div class="wc"><span class="wd"><i></i><i></i><i></i></span><span>Export Order Timeline</span></div>
+<div class="kp"><div><small>First cost</small><b>Procurement</b></div><div><small>Your stage</small><b id="ks">Full timeline</b></div><div><small>Gap ends</small><b>Buyer payment</b></div></div>
+<div class="seg" role="group" aria-label="Where are you in your order?"><button type="button" data-st="all" aria-pressed="true">Full timeline</button><button type="button" data-st="pre" aria-pressed="false">Order confirmed, not shipped</button><button type="button" data-st="post" aria-pressed="false">Shipped, awaiting payment</button></div>
+<div class="legend"><span class="sw"></span>Working-capital gap: from your first cost until the buyer pays</div>
+<div class="gt2">
+<div class="ax"><i></i><div class="axl"><span>Order confirmed</span><span>Buyer pays</span></div></div>
+<div class="r2" data-s="all"><span class="rl">Order confirmed</span><div class="trk"><span class="m" style="left:0"></span></div></div>
+<div class="r2" data-s="pre"><span class="rl">Procurement</span><div class="trk"><span class="b" style="left:5%;width:25%"></span></div></div>
+<div class="r2" data-s="pre"><span class="rl">Production</span><div class="trk"><span class="b" style="left:25%;width:35%"></span></div></div>
+<div class="r2" data-s="post"><span class="rl">Shipment</span><div class="trk"><span class="b" style="left:60%;width:15%"></span></div></div>
+<div class="r2" data-s="post"><span class="rl">Awaiting buyer payment</span><div class="trk"><span class="b w" style="left:75%;width:25%"></span></div></div>
+<div class="r2" data-s="all"><span class="rl">Payment received</span><div class="trk"><span class="m" style="left:calc(100% - 18px)"></span></div></div>
+</div>
+<p class="cap" id="cap" aria-live="polite"></p>
+<p class="gapnote">Illustrative example only. Real timing varies by order, supplier terms and buyer payment terms. Export Finance is about the shaded period.</p>
+</div>
+<div class="acts" style="margin-top:32px"><a class="btn" href="#talk">Discuss Your Export Requirement →</a></div></div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<p class="lab">+ What It Helps With +</p>
+<h2>Keep Orders Moving While Payments Are <em>Pending.</em></h2>
+<div class="cards c3">
+<div class="card k1"><h3>Costs Before Shipment</h3><p>Procurement, production and logistics spend that arrives well before payment does.</p><span class="go">→</span></div>
+<div class="card k2"><h3>Buyer Payment Terms</h3><p>Your buyer sets the payment timeline. Your suppliers and team still need paying on yours.</p><span class="go">→</span></div>
+<div class="card k3"><h3>Larger Orders</h3><p>Growing order volume puts pressure on fixed working capital.</p><span class="go">→</span></div>
+</div></div></section>
+
+<section style="padding-top:0"><div class="wrap two">
+<div><p class="lab" style="text-align:left">+ Who It's For +</p><h2>Built For Businesses With <em>Orders Abroad.</em></h2><p class="sub" style="text-align:left;margin:0">If one of these sounds familiar, it's worth a conversation.</p></div>
+<ul class="chk">
+<li>You have confirmed or expected international orders, but need working capital to cover costs before your buyer pays.</li>
+<li>Your buyer pays after delivery, not before.</li>
+<li>You're planning to take on larger orders than your working capital allows.</li>
+<li>You need to understand possible financing routes for an international order.</li>
+</ul>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<p class="lab">+ How It Works +</p>
+<h2>From Requirement To <em>Financing Route.</em></h2>
+<div class="steps">
+<div class="st"><i>01</i><h3>Share Your Requirement</h3><p>Send your name, email and a short note about the order and the buyer's payment terms.</p></div>
+<div class="st"><i>02</i><h3>Understand The Gap</h3><p>Walk through your costs, shipment timeline and payment terms.</p></div>
+<div class="st"><i>03</i><h3>Structure The Route</h3><p>Shape the requirement around your business and your order.</p></div>
+<div class="st"><i>04</i><h3>Explore Financing Routes</h3><p>Discuss possible financing routes.</p></div>
+<p class="note">Proposed flow, to be confirmed by ZTH.</p>
+</div></section>
+
+<section id="where" style="padding-top:0"><div class="wrap">
+<p class="lab">+ Where This Lives +</p>
+<h2>Added To The Site. <em>Nothing Rebuilt.</em></h2>
+<p class="sub">Proposal: add Export Finance to the existing Capital Network, while preserving the wider site structure.</p>
+<div class="ba">
+<div class="bx"><h3 class="bh"><span>Capital Network today</span><span>3 cards</span></h3>
+<div class="mc" style="--n:3"><span class="k1">Capital Access</span><span class="k2">Join as Investor</span><span class="k3">Strategic Partnerships</span></div></div>
+<div class="bx af"><h3 class="bh"><span>With Export Finance</span><span>4 cards</span></h3>
+<div class="mc" style="--n:4"><span class="k1">Capital Access</span><span class="k2">Join as Investor</span><span class="k3">Strategic Partnerships</span><span class="n">Export Finance</span></div></div>
+</div>
+<div class="fit"><span class="chip">Capital Network menu</span><span class="chip">Capital Network card</span><span class="chip">Inquiry form service</span></div>
+</div></section>
+<section id="fit" style="padding-top:0"><div class="wrap">
+<p class="lab">+ Part Of The ZTH Ecosystem +</p>
+<h2>Capital, Structuring And Growth. <em>Working Together.</em></h2>
+<p class="sub">Export Finance sits in one existing vertical and draws on the others, as ZTH's verticals already do.</p>
+<div class="vm">
+<div class="on"><h3>Capital &amp; Fundraising</h3><p>Home of the Capital Network and its debt providers.</p><small>Export Finance lives here</small></div>
+<div><h3>Financial &amp; Strategic Structuring</h3><p>Understanding the business and shaping the requirement.</p><small>Draws on Deal Structuring</small></div>
+<div><h3>Business &amp; Growth</h3><p>Connecting financial needs to larger growth goals.</p><small>Supports larger orders</small></div>
+<div><h3>Technology</h3><p>The existing site and inquiry form carry the new vertical.</p><small>No new system</small></div>
+</div></div></section>
+
+<section id="talk" style="padding-top:0"><div class="wrap"><div class="cta">
+<p class="lab">+ Talk to ZTH +</p>
+<h2>Let's Talk About Your <em>Export Order.</em></h2>
+<p class="sub">Three fields are enough to start the conversation.</p>
+<p class="chips" style="margin-top:22px"><span>Order value</span><span>Buyer's payment terms</span><span>Expected shipping date</span><span>Costs before payment</span></p>
+<p class="hint">Helpful to have on hand, but not required.</p>
+<form id="f" novalidate>
+<label>Full name<input name="n" autocomplete="name" required><small class="er" data-for="n"></small></label>
+<label>Email<input name="e" type="email" autocomplete="email" required><small class="er" data-for="e"></small></label>
+<label class="f">Your export requirement<textarea name="r" rows="3" placeholder="The order and the buyer's payment terms" required></textarea><small class="er" data-for="r"></small></label>
+<p class="nx" style="text-align:left">Service: Export Finance</p>
+<button class="btn f" type="submit">Discuss Your Export Requirement →</button>
+<p class="nx">Prototype form only: your details are not sent or stored. In a live version, ZTH would review your note and follow up (proposed flow).</p>
+<p class="nx">Prefer email? <a href="mailto:zth@zth.co.in" style="text-decoration:underline">zth@zth.co.in</a></p>
+<p class="msg" id="m" role="status"></p>
+</form>
+</div></div></section>
+</main>
+<footer class="ft"><div class="wrap"><div class="fg">
+<div><p class="fh">Let's work together</p><p class="fb">Let's Talk <em>Export.</em></p><a class="pl" href="#talk">Talk to ZTH →</a></div>
+<div><p class="fh">Contact</p><a href="mailto:zth@zth.co.in">zth@zth.co.in</a></div>
+<div><p class="fh">Navigate</p><a href="https://zth.co.in/#pre-fundraising-light" target="_blank" rel="noopener noreferrer">Pre-Fundraising</a><a href="https://zth.co.in/#capital-network" target="_blank" rel="noopener noreferrer">Capital Network</a><a href="https://zth.co.in/#partnership-advisory" target="_blank" rel="noopener noreferrer">Partnership &amp; Advisory</a><a href="https://zth.co.in/coming-soon" target="_blank" rel="noopener noreferrer">ZTH Insider</a></div>
+<div><p class="fh">Follow</p><a href="https://zth.co.in/" target="_blank" rel="noopener noreferrer">ZTH website ↗</a></div>
+</div><div class="fbt"><span><b style="color:#fff">ZTH</b> &nbsp;&copy; 2026. Concept page for an Export Finance vertical. The inquiry form is a demo and sends no data.</span><a href="#top">Back to top ↑</a></div></div></footer>
+<a class="stk" href="#talk">Discuss Your Export Requirement →</a>
+<script>
+var cp={all:"Procurement, production and shipping costs can all fall before your buyer pays.",pre:"Before shipment, procurement and production costs build up while no payment has arrived.",post:"The goods have shipped. You are now waiting on the buyer's payment terms."};
+function setStage(t){document.querySelectorAll('[data-st]').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.st===t)});
+document.querySelectorAll('[data-s]').forEach(function(e){e.classList.toggle('dim',t!=='all'&&e.dataset.s!=='all'&&e.dataset.s!==t)});
+document.getElementById('cap').textContent=cp[t];document.getElementById('ks').textContent={all:'Full timeline',pre:'Not yet shipped',post:'Shipped'}[t]}
+document.querySelectorAll('[data-st]').forEach(function(b){b.addEventListener('click',function(){setStage(b.dataset.st)})});setStage('all');
+var F=document.getElementById('f'),MS={n:'Add your name.',e:'Enter an email like name@company.com.',r:'Briefly describe your order so we can respond usefully.'};
+function chk(k){var el=F.elements[k],v=el.value.trim(),ok=k==='e'?/^\S+@\S+\.\S+$/.test(v):v.length>0,er=F.querySelector('[data-for="'+k+'"]');
+el.setAttribute('aria-invalid',!ok);er.textContent=ok?'':MS[k];return ok}
+['n','e','r'].forEach(function(k){F.elements[k].addEventListener('blur',function(){chk(k)});F.elements[k].addEventListener('input',function(){if(F.elements[k].getAttribute('aria-invalid')==='true')chk(k)})});
+F.addEventListener('submit',function(ev){ev.preventDefault();var m=document.getElementById('m'),bad=['n','e','r'].filter(function(k){return !chk(k)});
+if(bad.length){m.style.color='#ffb4a8';m.textContent='Please fix the highlighted field'+(bad.length>1?'s':'')+'.';F.elements[bad[0]].focus();return}
+m.style.color='#9be0b0';m.textContent='Thank you, '+F.elements.n.value.trim().split(' ')[0]+'. Demo only: nothing was sent. In a live version, the ZTH team would follow up.';F.reset();['n','e','r'].forEach(function(k){F.elements[k].removeAttribute('aria-invalid');F.querySelector('[data-for="'+k+'"]').textContent=''})});
+</script>
+<script>
+(function(){var n=document.querySelector('nav'),b=n.querySelector('.mb');
+b.addEventListener('click',function(){var o=n.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+n.querySelectorAll('.links a').forEach(function(a){a.addEventListener('click',function(){if(a.matches('.nv>a')&&window.matchMedia('(max-width:900px)').matches)return;n.classList.remove('open');b.setAttribute('aria-expanded',false)})})})();
+</script>
+<script>
+(function(){var g=document.querySelector('.gt2');if(!g)return;if(!('IntersectionObserver' in window)){g.classList.add('in');return}
+var o=new IntersectionObserver(function(e){if(e[0].isIntersecting){g.classList.add('in');o.disconnect()}},{threshold:.3});o.observe(g)})();
+</script>
+<script>
+(function(){document.querySelectorAll('.nv>a').forEach(function(a){a.addEventListener('click',function(ev){
+if(window.matchMedia('(max-width:900px)').matches){var nv=a.parentNode;if(nv.querySelector('.mm')){ev.preventDefault();nv.classList.toggle('open')}}})})})();
+(function(){var s=document.querySelector('.stk'),t=document.getElementById('talk'),f=document.querySelector('footer.ft');
+if(!s||!('IntersectionObserver' in window))return;var v={};
+var io=new IntersectionObserver(function(es){es.forEach(function(e){v[e.target===t?'t':'f']=e.isIntersecting});s.style.display=(v.t||v.f)?'none':''},{threshold:0.05});
+if(t)io.observe(t);if(f)io.observe(f)})();
+</script>
+</body>
+</html>
